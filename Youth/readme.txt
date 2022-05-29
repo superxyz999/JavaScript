@@ -1,3 +1,5 @@
+转载自Sunert大佬
+
 目前比较靠谱的圈X薅羊毛之一：
 「中青阅读极速版」
 
@@ -17,23 +19,23 @@
 编辑配置文件，在[rewrite_remote]下粘贴以下代码：
 
 # 中青cookie获取
-https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/Youth/Youth_cookie.conf, tag=中青cookie获取, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/superxyz999/JavaScript/main/Youth/Youth_cookie.conf, tag=中青cookie获取, update-interval=86400, opt-parser=false, enabled=true
 
 # 中青body获取
-https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/Youth/Youth_Read.conf, tag=中青body获取, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/superxyz999/JavaScript/main/Youth/Youth_Read.conf, tag=中青body获取, update-interval=86400, opt-parser=false, enabled=true
 ----------
 
 2️⃣第二步：添加定时任务
 编辑配置文件，在[task_local]下粘贴以下代码：
 
 # 中青签到&转盘宝箱
-*/10 5-23 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag= 中青签到&转盘宝箱, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
+*/10 5-23 * * * https://raw.githubusercontent.com/superxyz999/JavaScript/main/Youth.js, tag= 中青签到&转盘宝箱, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 
 # 中青自动阅读
-10 */2 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
+10 */2 * * * https://raw.githubusercontent.com/superxyz999/JavaScript/main/Youth/Youth.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 
 # 中青浏览赚
-20 5 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
+20 5 10 * * * https://raw.githubusercontent.com/superxyz999/JavaScript/main/Youth/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 ----------
 
 3️⃣第三步：食用方法⚠️
